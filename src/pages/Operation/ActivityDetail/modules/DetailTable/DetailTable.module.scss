@@ -1,0 +1,22 @@
+.DetailTableBox {
+  margin-top: 24px;
+  padding: 24px 32px;
+  background-color: #fff;
+
+  .ButtonBox {
+    margin-bottom: 24px;
+
+    .keyWord {
+      width: 200px;
+      margin-right: 24px;
+    }
+
+    .Filter {
+      margin-left: 16px;
+    }
+
+    .export {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.LogisticsContent {
+  background: #fff;
+  padding: 15px 30px;
+  overflow: hidden;
+
+  .topAlter {
+    color: #C09853;
+    background-color: #FCF8E3;
+    padding: 8px 35px 8px 14px;
+    margin: 10px auto;
+    border: 1px solid #FBEED5;
+
+    ul {
+      margin-bottom: 10px;
+      padding-left: 0;
+
+      li {
+        margin: 4px 0;
+      }
+    }
+  }
+
+  .tableContent {
+    padding-top: 20px;
+
+    .pageBox {
+      padding: 20px 0;
+      float: right;
+    }
+
+    .loadingBox {
+      clear: both;
+      margin: auto;
+      padding: 10px 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .tableBox {
+      clear: both;
+      margin-top: 50px;
+
+      .temTitle {
+        background: #F1F1F1;
+        height: 58px;
+        line-height: 58px;
+        padding-left: 16px;
+        display: flex;
+        justify-content: space-between;
+
+      }
+
+      .twoRow {
+        background: #DFDFDF;
+        color: #666;
+        box-sizing: border-box;
+
+        :global {
+          .ant-col {
+            padding: 8px 16px;
+            box-sizing: border-box;
+          }
+        }
+      }
+
+      :global {
+        .ant-table-thead>tr>th {
+          background: #fff;
+        }
+      }
+
+    }
+  }
+}

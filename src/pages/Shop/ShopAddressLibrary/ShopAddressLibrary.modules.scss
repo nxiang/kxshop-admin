@@ -1,0 +1,16 @@
+.pageLayout{
+  width: 100%;
+  min-height: 700px;
+  padding: 16px;
+  background:#ffffff;
+}
+.Opr {
+  margin-bottom: 20px;
+}
+.red {
+  color: #ff3e4a;
+  &:hover {
+    color: #ff3e4a;
+    opacity: .9;
+  }
+}

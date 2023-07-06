@@ -1,0 +1,38 @@
+.use-classify{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 32px 0 40px 0;
+  .use-classify-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:219px;
+    height:86px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 4px 8px 0px rgba(222,239,255,0.65);
+    border-radius:4px;
+    .use-text-box{
+      display: flex;
+      align-items: center;
+      .use-classify-tag{
+        margin: 0;
+        margin-right: 8px;
+        font-size:14px;
+        color:rgba(0,0,0,0.45);
+      }
+      .anticon-info-circle{
+        color:rgba(0,0,0,0.45);
+      }
+    }
+    
+    .user-classify-b{
+      font-size:24px;
+    }
+  }
+  .use-classify-item-hover{
+    justify-content: center;
+    border:1px solid rgba(99,180,255,1);
+  }
+}

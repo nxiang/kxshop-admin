@@ -1,0 +1,42 @@
+.AddCoupon {
+  width: 100%;
+
+  .GetCoupon {
+    margin-top: 24px;
+    padding: 32px;
+    background: #ffffff;
+
+    .title {
+      font-size: 20px;
+      color: #000000;
+      font-weight: bold;
+      margin-bottom: 32px;
+    }
+  }
+
+  .useBox {
+    display: flex;
+    align-items: center;
+
+    .RadioBox {
+      display: flex;
+    }
+  }
+
+  .submitRow {
+    padding-left: 8.333333%;
+
+    button {
+      margin-right: 8px;
+    }
+  }
+}
+
+.msgTxt {
+  width: 490px;
+  margin: -10px 12.5% 20px;
+  font-size: 12px;
+  font-weight: 400;
+  // color: rgba(0, 0, 0, 0.25);
+  color: #a7a19c;
+}

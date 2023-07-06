@@ -1,0 +1,51 @@
+.CouponTable{
+  padding:32px;
+  background:#ffffff;
+
+  .ButtonBox{
+    font-size:14px;
+    display:flex;
+    justify-content: space-between;
+    .right{
+      display:flex;
+    }
+  }
+  .tableBox {
+    margin-top: 27px;
+    text-align: right;
+    .tableDetail {
+      margin-bottom: 8px;
+      .green {
+        color: #5bcb1d;
+      }
+      .light{
+        color:rgba(0,0,0,0.4);
+      }
+      .dark{
+        color:rgba(0,0,0,0.65);
+      }
+      .red{
+        color:#F72633;
+      }
+      .orange{
+        color:#F79226;
+      }
+    }
+  }
+  .actionGroup{
+    font-size:14px;
+    .actionBox{
+      span{
+        cursor: pointer;
+        color:#1890FF;
+        padding:0 8px;
+      }
+      span:nth-child(2){
+        border-left:1px solid #E9E9E9;
+      }
+      span:nth-child(3){
+        border-left:1px solid #E9E9E9;
+      }
+    }
+  }
+}

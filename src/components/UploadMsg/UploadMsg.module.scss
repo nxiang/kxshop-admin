@@ -1,0 +1,25 @@
+.msgBox {
+  height: 70px;
+  font-size: 12px;
+}
+
+.defaultBtn {
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: rgba(16, 164, 255, 1);
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.msg {
+  line-height: 18px;
+
+  span {
+    color: #FF1300;
+
+  }
+}

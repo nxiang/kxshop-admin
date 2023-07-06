@@ -1,0 +1,36 @@
+.goodsModal {
+  height: 580px;
+  position: relative;
+
+  .goodsBottom {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
+
+  .goodsTop {
+    overflow: hidden;
+  }
+
+  .goodsTable {
+    margin-top: 15px;
+    clear: both;
+
+    .table-name-box {
+      display: flex;
+      align-items: center;
+    }
+
+    .table-name-img {
+      width: 60px;
+      height: 60px;
+      background: rgba(232, 232, 232, 1);
+    }
+  }
+
+  :global {
+    .ant-pagination-options {
+      display: none !important;
+    }
+  }
+}

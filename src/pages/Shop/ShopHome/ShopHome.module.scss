@@ -1,0 +1,19 @@
+.shop-home-box {
+  background-color: #fff;
+
+  .shop-home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 730px;
+    .content-photo-box{
+      width: 250px;
+      height: 506px;
+      .content-photo-img{
+        width: 250px;
+        height: 506px;
+      }
+    }
+  }
+}

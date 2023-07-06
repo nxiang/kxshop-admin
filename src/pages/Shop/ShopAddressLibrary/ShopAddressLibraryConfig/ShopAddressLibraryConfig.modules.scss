@@ -1,0 +1,28 @@
+.shopLibrarypageLayout {
+  width: 100%;
+  min-height: 700px;
+  padding: 16px;
+  background: #ffffff;
+  .selectW {
+    width: 400px;
+  }
+}
+.config-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 256px;
+  bottom: 0;
+  right: 0;
+  z-index: 800;
+  height: 64px;
+  background-color: #fff;
+  box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.07);
+  transition: 0.2s;
+}
+:global {
+  .shopLibrarypageLayout .ant-select.ant-select-in-form-item{
+    width: 325px;
+  }
+}

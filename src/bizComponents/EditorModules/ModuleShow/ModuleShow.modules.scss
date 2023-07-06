@@ -1,0 +1,52 @@
+.config-left {
+  box-sizing: border-box;
+  position: relative;
+  width: 264px;
+  min-height: 732px;
+  margin-right: 8px;
+  padding: 24px;
+  box-shadow: 0px 4px 8px 0px rgba(24, 144, 255, 0.09);
+  user-select: none;
+  .config-left-header {
+    height: 22px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 22px;
+    &:nth-of-type(1) {
+      margin-top: 0;
+    }
+  }
+  .config-left-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .content-item {
+      box-sizing: border-box;
+      width: 88px;
+      height: 88px;
+      text-align: center;
+      font-size: 12px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(102, 102, 102, 1);
+      line-height: 18px;
+      border-radius: 4px;
+      border: 2px solid rgba(255, 255, 255, 1);
+      img {
+        width: 45px;
+        height: 45px;
+      }
+      &:hover {
+        background: rgba(242, 249, 255, 1);
+        border: 2px solid rgba(24, 144, 255, 1);
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

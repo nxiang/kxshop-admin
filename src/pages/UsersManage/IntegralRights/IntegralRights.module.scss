@@ -1,0 +1,21 @@
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  height: 104px;
+  .header-item {
+    width: 200px;
+    text-align: center;
+    .header-item-num {
+      font-size: 30px;
+    }
+    .header-item-title {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #484848;
+      .header-item-icon {
+        margin-left: 8px;
+      }
+    }
+  }
+}

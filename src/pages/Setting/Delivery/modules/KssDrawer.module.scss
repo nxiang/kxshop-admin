@@ -1,0 +1,25 @@
+.drawer-box {
+  position: relative;
+}
+.drawer-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 32px;
+  margin-bottom: 16px;
+  .pay-box {
+    display: flex;
+    align-items: center;
+    .pay-title {
+      margin-right: 8px;
+      line-height: 32px;
+    }
+    .pay-text {
+      margin-right: 24px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #f72633;
+      line-height: 32px;
+    }
+  }
+}

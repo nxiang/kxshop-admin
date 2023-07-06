@@ -1,0 +1,41 @@
+.photo-ad-box {
+  margin: 0 auto;
+  border-radius: 5px;
+  // background: #364d79;
+  overflow: hidden;
+  .slick-track {
+    line-height: 1;
+  }
+
+  .Carousel-img-box{
+    text-align: center;
+    // .Carousel-img {
+    //   // border-radius: 5px;
+    //   // margin-left: 7.5px;
+    // }
+    .coupon-default-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // margin-right: 5px;
+      background:rgba(244,244,244,1);
+      // margin-left: 7.5px;
+      .default-img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+.propPaddingLR {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.propPaddingTB {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.propRadius {
+  border-radius: 8px;
+}

@@ -1,0 +1,59 @@
+.AddCouponBox {
+  position: fixed;
+  z-index: 999;
+  width: 384px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.09);
+  font-size: 14px;
+  padding: 24px;
+  top: 400px;
+  left: 50%;
+
+  .closeButton {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    color: #999999;
+  }
+
+  .title {
+    color: #333333;
+    margin-bottom: 12px;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .tips {
+    color: #F72633;
+  }
+
+  .buttonGroup {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+
+    .cancel,
+    .confirm {
+      float: right;
+      margin-left: 8px;
+      width: 65px;
+      height: 32px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .cancel {
+      background: #ffffff;
+      border: 1px solid #D9D9D9;
+      color: #000000
+    }
+
+    .confirm {
+      background: #1890FF;
+      color: #ffffff;
+      border: none;
+    }
+  }
+}

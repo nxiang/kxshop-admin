@@ -1,0 +1,29 @@
+.goodsItem {
+  display: flex;
+  align-items: center;
+}
+.goodsItemImg {
+  flex-shrink: 0;
+}
+.goodsItemInfo {
+  display: line-flex;
+  align-items: center;
+  margin-left: 4px;
+  div {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  div:last-of-type {
+    color: #aaa;
+    font-size: 12px;
+  }
+}
+// .goodsChooseTips {
+//   font-size: 14px;
+//   color: #2d8af9;
+//   margin-right: 5px;
+// }

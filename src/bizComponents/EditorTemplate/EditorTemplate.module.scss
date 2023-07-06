@@ -1,0 +1,201 @@
+.template-config-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 758px;
+  margin-top: 22px;
+  // margin-bottom: 24px;
+  padding-bottom: 20px;
+
+  .config-middle {
+    position: relative;
+    height: 728px;
+    .config-middle-overflow {
+      position: relative;
+      width: calc(320px + 42px);
+      height: 728px;
+      overflow: auto;
+      .config-style-box {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        width: 294px;
+        height: 40px;
+        padding: 8px;
+        background: #f4f4f4;
+        .config-style-left {
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+        }
+        .config-style-right {
+          display: inline-flex;
+          align-items: center;
+          font-size: 12px;
+          color: #1890ff;
+          cursor: pointer;
+        }
+      }
+      .config-photo {
+        position: relative;
+        width: 294px;
+        // padding-top: 104px;
+        // padding-bottom: 40px;
+        min-height: 732px;
+        box-shadow: 0px 4px 8px 0px rgba(24, 144, 255, 0.09);
+        .config-photo-header {
+          position: relative;
+          width: 294px;
+          height: 104px;
+          background: rgba(102, 102, 102, 1);
+          margin: 0;
+          .photo-header-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 294px;
+          }
+        }
+        .config-photo-item {
+          position: relative;
+          border: 2px solid transparent;
+          &:hover {
+            border: 2px solid rgba(24, 144, 255, 1);
+          }
+        }
+        .fixed-bottom-box {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 50px;
+          overflow: hidden;
+          border: 2px solid transparent;
+          &:hover {
+            border: 2px solid rgba(24, 144, 255, 1);
+          }
+        }
+        .config-photo-item-hover,
+        .fixed-bottom-box-hover {
+          border: 2px solid rgba(24, 144, 255, 1);
+        }
+        .config-photo-bottom {
+          height: 44px;
+        }
+      }
+
+      .config-operation-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: -55px;
+        width: 32px;
+        height: 106px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 4px 8px 0px rgba(24, 144, 255, 0.14);
+        border-radius: 16px;
+        .config-operation-item {
+          width: 16px;
+          height: 16px;
+        }
+        .icon-direction {
+          background: url('https://img.kxll.com/admin_manage/icon/icon_direction.png');
+          &:hover {
+            background: url('https://img.kxll.com/admin_manage/icon/icon_direction_hover.png');
+          }
+        }
+        .icon-upward {
+          background: url('https://img.kxll.com/admin_manage/icon/icon_upward.png');
+          &:hover {
+            background: url('https://img.kxll.com/admin_manage/icon/icon_upward_hover.png');
+          }
+        }
+        .icon-downward {
+          background: url('https://img.kxll.com/admin_manage/icon/icon_downward.png');
+          &:hover {
+            background: url('https://img.kxll.com/admin_manage/icon/icon_downward_hover.png');
+          }
+        }
+      }
+
+      .config-btn-box {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        width: 32px;
+        min-height: 100%;
+
+        .config-btn {
+          display: flex;
+          flex-direction: column;
+          width: 32px;
+          padding: 12px 8px;
+          margin-bottom: 8px;
+          background: rgba(255, 255, 255, 1);
+          box-shadow: 0px 4px 8px 0px rgba(24, 144, 255, 0.1);
+          border-radius: 16px;
+          font-size: 16px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          line-height: 22px;
+          cursor: pointer;
+        }
+
+        .blue-btn {
+          background: rgba(24, 144, 255, 1);
+          box-shadow: 0px 4px 8px 0px rgba(24, 144, 255, 0.1);
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      .fixd-bottom-block {
+        width: 100%;
+        height: 50px;
+      }
+    }
+    .config-photo-foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 294px;
+      height: 44px;
+      background: white;
+      .config-photo-foot-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 30px;
+        .item-img {
+          width: 20px;
+          height: 20px;
+        }
+        .item-text {
+          height: 10px;
+          margin-top: 2px;
+          margin-bottom: 0;
+          font-size: 8px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(153, 153, 144, 1);
+          line-height: 10px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  .config-right {
+    width: 404px;
+    height: 732px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px 0 rgba(24, 144, 255, 0.09);
+    overflow: auto;
+  }
+}

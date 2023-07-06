@@ -1,0 +1,43 @@
+.addContent{
+    background:#fff;
+    padding: 20px 0;
+    padding-top: 40px;
+    .detailConent{
+        .detailTitleBox{
+            background:#FAFAFA;
+            height: 58px;
+            line-height: 58px;
+            border: 1px solid #f0f0f0;
+            padding-left:16px;
+        }
+        .bottomContent{
+            border: 1px solid #f0f0f0;
+            .areaBox{
+                line-height: 50px;
+                color:#999;
+                border-bottom: solid 1px #E6E6E6;
+                padding-left:16px;
+            }
+            .bottomBtn{
+                padding: 10px 0;
+                padding-left:16px;
+            }
+            .setMoney{
+                border: 1px solid #f0f0f0;
+                padding: 4px 8px;
+                cursor: pointer;
+                .lotIcon{
+                    width: 18px;
+                    height:18px;
+                    padding-right:5px;
+                    vertical-align: middle;
+                    margin-top: -2px;
+                }
+            }
+            .setMoney:hover{
+                background-color: #E2E7EB;
+                border-color: #D8DDE1;
+            }
+        }
+    }
+}

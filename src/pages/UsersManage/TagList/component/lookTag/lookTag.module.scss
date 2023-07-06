@@ -1,0 +1,27 @@
+.look-tag-box {
+  margin-left: 40px;
+
+  .look-tag-item {
+    display: flex;
+    margin-bottom: 20px;
+
+    p {
+      margin-bottom: 0;
+      color: #000000;
+      margin-right: 5px;
+    }
+
+    span {
+      flex:1;
+      word-wrap : break-word;
+      color: #999999;
+    }
+  }
+}
+
+.look-tag-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+}

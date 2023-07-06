@@ -1,0 +1,89 @@
+.statusTopBox{
+    background:#fff;
+    height: 437px;
+    .rightBox{
+        float:left;
+        padding:24px;
+        .rightRow{
+            padding-bottom: 15px;
+            .leftRow{
+                display: inline-block;
+                width: 80px;
+                padding-right: 4px;
+                color:#666;
+                text-align: right;
+            }
+        }
+    }
+    .leftBox{
+        float:left;
+        box-sizing: border-box;
+        width:402px;
+        height: 100%;
+        box-shadow:7px 0px 14px 0px rgba(0,0,0,0.04);
+        position: relative;
+        .bottomMsgBox{
+            position: absolute;
+            top: 336px;
+            width: 100%;
+            .msgContent{
+                border-top: 1px dashed #d6d6d6;
+                margin: 0 24px;
+                padding-top:28px;
+                font-size:12px;
+                .msgTitle{
+                    color:#F72633;
+                    padding-bottom: 8px;
+                    span{
+                        padding-left: 3px;
+                    }
+                }
+            }
+        }
+        .title{
+            font-size:16px;
+            font-weight: bold;
+            padding-left: 24px;
+            padding-top: 24px;
+        }
+        .centerBox{
+            padding: 50px 0 170px 0;
+            text-align: center;
+            .statusTitle{
+                font-size:36px;
+                font-weight: 500;
+            }
+            .statusDesc{
+                font-size:12px;
+                color:#666;
+                padding: 12px 0;
+            }
+            .topBtn{
+                width: 180px;
+                height:32px;
+                margin-bottom: 10px;
+            }
+            .bottomBtnBox{
+                width: 180px;
+                display: flex;
+                margin: auto;
+                justify-content: space-between;
+                :global{
+                    .ant-btn{
+                        width: 86px;
+                    }
+                }
+            }
+        }
+    }
+}
+.bottomBox{
+    clear: both;
+    margin-top:24px;
+    background:#fff;
+    padding: 24px;
+    .bottomTitle{
+        font-size:16px;
+        font-weight:bold;
+    }
+}

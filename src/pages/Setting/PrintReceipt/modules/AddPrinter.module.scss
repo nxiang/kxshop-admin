@@ -1,0 +1,33 @@
+.modal-add-box {
+  position: relative;
+  .add-row {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 8px;
+    .row-title {
+      width: 90px;
+      text-align: right;
+    }
+    .row-content {
+      display: flex;
+      align-items: center;
+      width: 200px;
+      height: 30px;
+      margin-left: 8px;
+    }
+    .row-hint {
+      margin-left: 8px;
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+  .foot-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .foot-item {
+      margin-left: 8px;
+    }
+  }
+}

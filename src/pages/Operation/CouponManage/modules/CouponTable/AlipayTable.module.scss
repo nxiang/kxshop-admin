@@ -1,0 +1,46 @@
+.alipay-table-box {
+  position: relative;
+  padding: 34px 32px;
+  background: rgba(255, 255, 255, 1);
+
+  .alipay-header-box {
+    display: flex;
+    justify-content: space-between;
+
+    .header-right-box {
+      display: flex;
+
+      .right-input {
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .table-box{
+    margin-top: 26px;
+
+    .operation-box{
+      display: flex;
+      align-items: center;
+      height: 22px;
+
+      .operation-text{
+        height:22px;
+        margin-right: 8px;
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(24,144,255,1);
+        line-height:22px;
+        cursor: pointer;
+      }
+
+      .operation-div{
+        width:1px;
+        height:14px;
+        margin-right: 8px;
+        background:rgba(233,233,233,1);
+      }
+    }
+  }
+}

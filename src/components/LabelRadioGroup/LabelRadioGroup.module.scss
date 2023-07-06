@@ -1,0 +1,27 @@
+.radio-box-item {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-bottom: 16px;
+  &.otherSetting {
+    margin-bottom: 0;
+    .radio-title {
+      width: auto;
+      font-size: 14px;
+      color: #333;
+      font-weight: 500;
+      text-align: left;
+    }
+  }
+  .radio-title {
+    text-align: right;
+    width: 50px;
+    height: 18px;
+    font-size: 12px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #666666;
+    line-height: 18px;
+    margin-right: 16px;
+  }
+}

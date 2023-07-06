@@ -1,0 +1,50 @@
+.UseRules{
+  margin-top:24px;
+  padding:32px;
+  background:#ffffff;
+  .title{
+    font-size:20px;
+    color:#000000;
+    margin-bottom:32px;
+  }
+  .checkBox{
+    display: inline-block;
+    margin-left:15px;
+    cursor: pointer;
+  }
+  .timeRadioBox{
+    display:flex;
+    align-items: center;
+    .timeRadio{
+      display:flex;
+    }
+  }
+  .useProductBox{
+    .red{
+      color:#F72633;
+      font-weight: bold;
+    }
+    .showDetail{
+      color:#1890FF;
+      margin-left:8px;
+      cursor: pointer;
+    }
+  }
+  .editButton{
+    button{
+      background:rgba(24,144,255,0.16);
+      border-radius:4px;
+      border:1px solid rgba(24,144,255,1);
+      color:#1890FF;
+    }
+    .tips{
+      color:rgba(0,0,0,0.24);
+      font-size:12px;
+      font-weight: bold;
+    }
+  }
+  .availableItems{
+    display:flex;
+    align-items: center;
+  }
+}

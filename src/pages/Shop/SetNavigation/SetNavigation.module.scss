@@ -1,0 +1,213 @@
+.main_box {
+  padding-top: 48px;
+  background-color: #fff;
+  margin-bottom: 30px;
+
+  .container {
+    position: relative;
+    min-height: 700px;
+    margin-bottom: 39px;
+
+    .ant-upload-list-item-list-type-picture-card {
+      .ant-upload-list-item-info {
+        .ant-upload-list-item-info::before {
+          position: absolute !important;
+          left: 0px !important;
+        }
+      }
+    }
+
+    .container_left {
+      margin-bottom: 30px;
+      position: absolute;
+      top: 0;
+      left: 48px;
+      width: 340px;
+      height: 700px;
+      border: 1px solid #ccc;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 3px;
+
+      .phone_header {
+        background: #000;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .phone_footer {
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+
+        &>div {
+          width: 100%;
+        }
+
+        .config-photo-foot-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          width: 100%;
+          margin: 10px 0px 10px 0;
+
+          .item-img {
+            width: 20px;
+            height: 20px;
+          }
+
+          .item-text {
+            height: 10px;
+            margin-top: 2px;
+            margin-bottom: 0;
+            font-size: 8px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: rgba(153, 153, 144, 1);
+            line-height: 10px;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+
+    .container_right {
+      border: 1px solid #eee;
+      height: 700px;
+      overflow-y: auto;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-left: 20px;
+
+      .list_box {
+        width: 450px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin: 30px 0 10px 20px;
+        position: relative;
+        left: 5%;
+
+        .list_box_header {
+          width: 100%;
+          padding: 10px;
+          border-bottom: 1px solid #eee;
+          display: flex;
+
+          .list_box_logo {
+            width: 50%;
+            text-align: left;
+          }
+
+          .list_box_btn {
+            width: 50%;
+            text-align: right;
+          }
+        }
+
+        .list_box_content {
+          padding: 15px;
+          line-height: 45px;
+
+          .list_input {
+            width: 200px;
+          }
+
+          .picList {
+            display: flex;
+          }
+
+          .hidePiclist {
+            display: none;
+          }
+        }
+
+        .list_box_footer {
+          border-top: 1px solid #ddd;
+          padding: 15px;
+          //   line-height: 35px;
+        }
+
+        .config-operation-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          position: absolute;
+          top: 60px;
+          right: -50px;
+          width: 32px;
+          height: 106px;
+          background: rgba(255, 255, 255, 1);
+          box-shadow: 0px 4px 8px 0px rgba(24, 144, 255, 0.14);
+          border-radius: 16px;
+
+          .config-operation-item {
+            width: 16px;
+            height: 16px;
+          }
+
+          .icon-direction {
+            background: url('https://img.kxll.com/admin_manage/icon/icon_direction.png');
+
+            &:hover {
+              background: url('https://img.kxll.com/admin_manage/icon/icon_direction_hover.png');
+            }
+          }
+
+          .icon-upward {
+            background: url('https://img.kxll.com/admin_manage/icon/icon_upward.png');
+
+            &:hover {
+              background: url('https://img.kxll.com/admin_manage/icon/icon_upward_hover.png');
+            }
+          }
+
+          .icon-downward {
+            background: url('https://img.kxll.com/admin_manage/icon/icon_downward.png');
+
+            &:hover {
+              background: url('https://img.kxll.com/admin_manage/icon/icon_downward_hover.png');
+            }
+          }
+        }
+      }
+
+      .blue-btn {
+        border: 2px solid #1890ff;
+      }
+
+      .btnAdd {
+        width: 450px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        position: relative;
+        left: 5%;
+
+        .addBtn {
+          width: 100%;
+          color: #1890ff;
+          border: 1px solid #1890ff;
+        }
+      }
+    }
+  }
+
+  .main_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 256px;
+    bottom: 0;
+    right: 0;
+    z-index: 800;
+    height: 64px;
+    background-color: #fff;
+    box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.07);
+    transition: 0.2s;
+  }
+}

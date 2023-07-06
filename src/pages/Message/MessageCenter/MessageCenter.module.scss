@@ -1,0 +1,55 @@
+
+  
+
+  .messageCenter{
+    background-color: #fff;
+    .message-box{
+        position: relative;
+        padding: 28px 24px;
+        background: white;
+        .message-title-btn{
+            position: absolute;
+            top: 10px;
+            right: 32px;
+            width:112px;
+            height:24px;
+            font-size:16px;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(24,144,255,1);
+            line-height:24px;
+            cursor: pointer;
+        }
+        .message-card{
+            position: relative;
+            box-sizing: border-box;
+            margin: 0 0 24px;
+            padding: 16px 24px;
+            background:rgba(250,250,250,1);
+            border:1px solid rgba(217,217,217,1);
+            color: 888;
+            .card-card-title{
+                height:22px;
+                font-size:16px;
+                font-family:PingFangSC-Medium,PingFang SC;
+                font-weight:500;
+                line-height:22px;
+                font-weight: bolder;
+            }
+            .card-btn{
+                color: rgba(24, 144, 255, 1);
+                margin-left: 8px;
+                cursor: pointer;
+            }
+            .card-time{
+                position: absolute;
+                right: 24px;
+                bottom: 16px;
+                font-size:15px;
+                font-family:PingFangSC-Regular,PingFang SC;
+                font-weight:400;
+                line-height:22px;
+            }
+        }
+    }
+}

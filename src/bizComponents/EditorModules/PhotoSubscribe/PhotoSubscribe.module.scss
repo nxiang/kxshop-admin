@@ -1,0 +1,37 @@
+.photo-assis-ad-box{
+  display: flex;
+  width: 290px;
+  min-height: 23px;
+  margin: 0 auto;
+  .assis-ad-img{
+    width: 100%;
+  }
+  .coupon-default-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 23px;
+    background:rgba(244,244,244,1);
+    .default-img{
+      width: 22px;
+      height: 22px;
+    }
+    .default-text{
+      margin-left: 8px;
+      margin-bottom: 0;
+      color: #b6b6b6;
+    }
+  }
+}
+.propPaddingLR {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.propPaddingTB {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.propRadius {
+  border-radius: 8px;
+}

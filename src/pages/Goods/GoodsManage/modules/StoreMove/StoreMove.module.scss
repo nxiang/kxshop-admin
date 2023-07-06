@@ -1,0 +1,28 @@
+.moveContent{
+    padding: 28px 10px;
+    .courseImg{
+        height:200px;
+        width: 100%;
+    }
+    .moveText{
+        text-align: center;
+        padding-top: 16px;
+        width: 416px;
+        margin: auto;
+        font-size:16px;
+        color:#666;
+    }
+}
+.moveModal{
+    :global{
+        .ant-modal-footer{
+            border-top:none !important;
+            padding: 0;
+        }
+    }
+    
+}
+.bottomBtn{
+    padding-bottom: 40px;
+    text-align: center;
+}

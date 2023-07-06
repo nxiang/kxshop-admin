@@ -1,0 +1,8 @@
+.left-checkbox-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  .left-checkbox {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,53 @@
+.print-receipt-box {
+  position: relative;
+  padding: 32px;
+  background: white;
+  p {
+    margin-bottom: 0;
+  }
+
+  .alert-warning-box {
+    position: relative;
+    margin-bottom: 16px;
+    .alert-warning-btn {
+      margin-right: 16px;
+      color: rgba(24, 144, 255, 1);
+      cursor: pointer;
+    }
+  }
+
+  .operation-btn-box {
+    position: relative;
+    margin-bottom: 24px;
+  }
+
+  .tabler-box {
+    position: relative;
+    .operation-box {
+      display: flex;
+      align-items: center;
+
+      .operation-text {
+        height: 22px;
+        margin-right: 8px;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(24, 144, 255, 1);
+        line-height: 22px;
+        cursor: pointer;
+      }
+
+      .operation-division {
+        width: 1px;
+        height: 14px;
+        margin-right: 8px;
+        background: rgba(233, 233, 233, 1);
+      }
+    }
+  }
+}
+
+.red-text {
+  color: #f72633 !important;
+}

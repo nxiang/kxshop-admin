@@ -1,0 +1,115 @@
+.user-set-tab-box {
+  position: relative;
+  width: 100%;
+  height: 133px;
+  margin-bottom: 32px;
+  overflow: hidden;
+  .user-set-tab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: -17px;
+    display: flex;
+    padding: 8px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    .user-set-tab-item {
+      width: 205px;
+      height: 117px;
+      margin-right: 10px;
+      padding: 0 24px;
+      background: #ffffff;
+      box-shadow: 0px 4px 8px 0px #deefff;
+      border-radius: 4px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      cursor: pointer;
+      &-hover {
+        border: 1px solid #63b4ff;
+      }
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        height: 22px;
+        margin-top: 14px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 22px;
+      }
+      .item-num {
+        height: 32px;
+        margin-top: 4px;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 32px;
+      }
+      .item-time {
+        height: 22px;
+        margin-top: 8px;
+        font-size: 14px;
+        color: #333333;
+        line-height: 22px;
+        .item-time-proportion {
+          margin-left: 8px;
+          color: #f72633;
+        }
+        .item-time-proportion-green {
+          margin-left: 8px;
+          color: green;
+        }
+      }
+    }
+  }
+}
+
+.models-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  &-title {
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #333333;
+    line-height: 20px;
+  }
+  &-subTitle {
+    margin-left: 8px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #666666;
+    line-height: 20px;
+  }
+  &-radio {
+  }
+}
+
+.models-analysis-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .models-analysis-item {
+    width: 48%;
+    height: 306px;
+  }
+  .models-analysis-item-long {
+    width: 100%;
+    height: 300px;
+    // margin-top: 24px;
+  }
+}
+
+.range-picker-box-hover {
+  border: 1px solid #1890ff;
+}
+
+.subTitle {
+  font-size: 12px;
+  color: gray;
+  text-align: left;
+  margin-left: 10px;
+}

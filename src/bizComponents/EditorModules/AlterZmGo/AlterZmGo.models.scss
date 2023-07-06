@@ -1,0 +1,33 @@
+.alter-assist-ad-box {
+  position: relative;
+  width: 100%;
+  padding: 0 24px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .alter-content {
+    .error,
+    .normal,
+    .link {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+
+    .error {
+      color: #ff153a;
+    }
+    .link {
+      color: #09a3d9;
+    }
+  }
+  .item-rows {
+    display: flex;
+    align-items: center;
+    .label {
+      font-weight: bold;
+    }
+  }
+}

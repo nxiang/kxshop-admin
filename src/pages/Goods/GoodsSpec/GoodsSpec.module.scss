@@ -1,0 +1,45 @@
+.goods-spec-box {
+  position: relative;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .content-box {
+    padding: 32px;
+    background-color: #fff;
+
+    .table-operation-box {
+      display: flex;
+      align-items: center;
+
+      .division {
+        width: 1px;
+        height: 14px;
+        margin: 0 8px;
+        background: rgba(233, 233, 233, 1);
+      }
+
+      .blue-text {
+        height: 22px;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(25, 155, 255, 1);
+        line-height: 22px;
+        cursor: pointer;
+      }
+
+      .red-text {
+        height: 22px;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(247, 38, 51, 1);
+        line-height: 22px;
+        cursor: pointer;
+      }
+    }
+  }
+
+}

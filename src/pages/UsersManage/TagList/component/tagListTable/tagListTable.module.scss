@@ -1,0 +1,17 @@
+.tagList-table-content{
+  margin-top: 26px;
+  .tagTable-button{
+    color:#E9E9E9;
+  }
+  .ant-table-thead{
+    background:#FAFAFA;
+    .ant-table-column-title{
+      font-weight:600;
+    }
+  }
+  .ant-table-tbody{
+    .ant-table-row{
+      color:rgba(0,0,0,0.65);
+    }
+  }
+}

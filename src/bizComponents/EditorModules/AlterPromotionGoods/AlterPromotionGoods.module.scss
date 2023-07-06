@@ -1,0 +1,273 @@
+.alter-recommend-box {
+  position: relative;
+  width: 100%;
+  padding: 0 24px 24px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .alter-header {
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+    margin: 33px 0 12px;
+    line-height: 22px;
+
+    .header-left {
+      display: flex;
+      align-items: center;
+
+      .header-left-title {
+        height: 22px;
+        font-size: 16px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 22px;
+      }
+
+      .header-left-text {
+        height: 18px;
+        margin-left: 4px;
+        font-size: 12px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+        line-height: 18px;
+      }
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .header-right-icon {
+        font-size: 16px;
+      }
+
+      .header-right-text {
+        height: 18px;
+        margin-left: 4px;
+        font-size: 12px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 18px;
+      }
+    }
+  }
+
+  .alter-style-choice {
+    position: relative;
+    margin-bottom: 26px;
+    .style-header {
+      height: 18px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(102, 102, 102, 1);
+      line-height: 18px;
+    }
+    .style-content {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      .quantity-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 12px;
+        .quantity-img-box {
+          display: flex;
+          position: relative;
+          width: 64px;
+          height: 24px;
+          cursor: pointer;
+          .quantity-img-block {
+            width: 100%;
+            height: 24px;
+            margin-right: 3px;
+            background: rgba(244, 244, 244, 1);
+            &:nth-last-of-type(1) {
+              margin-right: 0;
+            }
+          }
+          .quantity-title-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 24px;
+            text-align: center;
+            font-size: 12px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: rgba(85, 85, 85, 1);
+            line-height: 24px;
+          }
+        }
+        .quantity-text {
+          height: 18px;
+          margin-top: 6px;
+          font-size: 12px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(102, 102, 102, 1);
+          line-height: 18px;
+          text-align: center;
+        }
+      }
+      .style-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        .style-img-box {
+          display: flex;
+          position: relative;
+          cursor: pointer;
+          .style-img-block-one {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 56px;
+            height: 60px;
+            margin-left: 2px;
+            background: rgba(244, 244, 244, 1);
+            &:nth-of-type(1) {
+              margin-left: 0;
+            }
+            .icon-img {
+              width: 27px;
+              height: 22px;
+            }
+          }
+          .style-img-block-two {
+            width: 78px;
+            height: 60px;
+            .icon-img {
+              width: 78px;
+              height: 60px;
+            }
+          }
+          .style-img-block-three {
+            width: 114px;
+            height: 51px;
+            .icon-img {
+              width: 114px;
+              height: 51px;
+            }
+          }
+        }
+        .style-text {
+          height: 18px;
+          margin-top: 6px;
+          font-size: 12px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(102, 102, 102, 1);
+          line-height: 18px;
+          text-align: center;
+        }
+      }
+      .blue-border::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgba(24, 144, 255, 1);
+      }
+    }
+  }
+
+  .alter-subtitle-choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    .style-header {
+      font-size: 12px;
+      font-weight: 500;
+      color: #666666;
+    }
+    .style-content {
+      margin-left: 16px;
+    }
+  }
+
+  .alter-title-style {
+    margin-bottom: 26px;
+    .style-header {
+      font-size: 12px;
+      font-weight: 500;
+      color: #666666;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.goods-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  .goods-item-del {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    font-size: 24px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .goods-item-img {
+    width: 100px;
+    height: 100px;
+  }
+  .goods-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    margin-left: 20px;
+    .goods-info-title{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical; /* 设置对齐模式 */
+      -webkit-line-clamp: 2;
+      word-break: break-all;
+    }
+    .goods-info-price-stock{
+      display: inline-flex;
+      .goods-info-price {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+.tips {
+  font-size: 12px;
+  line-height: 22px;
+  color: #666;
+}
+
+.spec-tips {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+  >div {
+    font-weight: bold;
+  }
+  >p {
+    margin-top: 6px;
+  }
+}

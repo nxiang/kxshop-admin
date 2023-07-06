@@ -1,0 +1,139 @@
+.ShareRebateBox {
+    background-color: #fff;
+
+    .tableBox {
+        padding: 20px 32px;
+    }
+}
+
+.BrokerageBox {
+    .BrokerageSearch {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .alertbox {
+        color: #F72633;
+        font-size: 13px;
+        line-height: 30px;
+        background: rgba(255, 240, 241, 1);
+        border-radius: 2px;
+        padding-left: 16px;
+
+        p {
+            margin: 0
+        }
+
+        span {
+            padding-right: 16px;
+        }
+    }
+
+    .SetTable {
+        .Form {
+            float: right;
+
+            .setMoney {
+                display: inline-block;
+                border: 1px solid rgba(217, 217, 217, 1);
+                padding: 4px 7px;
+                text-align: center;
+                font-size: 14px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .BrokerTable {
+        .ActionBox {
+            span {
+                cursor: pointer;
+                color: #1890FF;
+                padding-right: 8px;
+            }
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+
+            .dot {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                margin-right: 5px;
+            }
+
+            .green {
+                background-color: #52C41A;
+            }
+
+            .grey {
+                background-color: #F79226;
+            }
+
+            .red {
+                background-color: #F72633;
+            }
+
+            .green-color {
+                color: #52C41A;
+            }
+
+            .grey-color {
+                color: #F79226;
+            }
+
+            .red-color {
+                color: #F72633;
+            }
+        }
+    }
+}
+
+.deleteModal {
+    .delContent{
+        text-align: center;
+    }
+    .closeIcon {
+        font-size: 24px;
+        display: inline-block;
+        color: rgba(247, 38, 51, 1);
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+}
+
+.AddCommodityBox {
+    overflow-y: auto;
+    height: 400px;
+
+    .ratioInput {
+        vertical-align: middle;
+        padding: 5px 0px;
+
+        .formitem {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.RejectModal {
+    .RejectTextArea {
+        width: 468px;
+        height: 169px;
+        display: inline-block;
+        vertical-align: text-top;
+    }
+
+    .RejectBox {
+        padding-left: 72px;
+
+        span {
+            color: #000;
+            font-size: 14px;
+            padding-right: 5px;
+        }
+    }
+}

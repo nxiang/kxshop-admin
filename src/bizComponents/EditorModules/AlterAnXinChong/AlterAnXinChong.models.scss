@@ -1,0 +1,30 @@
+.alter-assist-ad-box {
+  position: relative;
+  width: 100%;
+  padding: 0 24px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .alter-content {
+    .spec-tips {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f0f0f0;
+      margin-top: 20px;
+      >div {
+        font-weight: bold;
+      }
+      >p {
+        margin-top: 6px;
+        margin-left: 2em;
+        &:first-of-type{
+          margin-left: 0;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,86 @@
+.order-list-box {
+  position: relative;
+  padding: 32px;
+  background: white;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.list-table-box {
+  position: relative;
+  padding: 20px 0 60px;
+
+  .table-top-thread {
+    position: absolute;
+    top: 0;
+    left: -36px;
+    width: calc(100% + 72px);
+    height: 1px;
+    background-color: rgba(239, 239, 239, 1);
+  }
+
+  .table-radio-group-box {
+    margin-bottom: 26px;
+  }
+
+  .order-list-tabler-box {
+    position: relative;
+
+    .operation-box {
+      display: flex;
+      align-items: center;
+
+      .operation-text {
+        height: 22px;
+        margin-right: 8px;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(24, 144, 255, 1);
+        line-height: 22px;
+        cursor: pointer;
+      }
+
+      .operation-division {
+        width: 1px;
+        height: 14px;
+        margin-right: 8px;
+        background: rgba(233, 233, 233, 1);
+      }
+    }
+  }
+}
+
+.modalMsg {
+  width: 330px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: #666666;
+  line-height: 22px;
+  margin-bottom: 23px;
+  display: inline-block;
+
+  span,
+  p {
+    color: #333333;
+  }
+
+  .star {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+  }
+}
+.cbox {
+  display: flex;
+  .citem {
+    margin-right: 20px;
+  }
+}
+.citem {
+  width: 116px !important;
+  height: 116px;
+  background: rgba(234, 234, 234, 1);
+}

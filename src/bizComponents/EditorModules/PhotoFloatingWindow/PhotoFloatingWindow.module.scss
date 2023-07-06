@@ -1,0 +1,19 @@
+.floating-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 8;
+  right: 80px;
+  bottom: 20px;
+  .floating-item{
+    height: 48px;
+    margin-bottom: 10px;
+    .floating-item-img{
+      // width: 36px;
+      height: 48px;
+      border-radius: 18px;
+    }
+  }
+}

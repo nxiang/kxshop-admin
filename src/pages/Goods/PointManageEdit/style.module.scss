@@ -1,0 +1,60 @@
+.commonTitle {
+  font-size: 16px;
+  margin-bottom: 18px;
+  border-left: 3px solid #1890ff;
+  padding-left: 10px;
+}
+
+.commonTitleRowBox {
+  margin: 12px 0;
+  .goodsTypeList {
+    li {
+      display: inline-block;
+      text-align: center;
+      padding: 10px 20px;
+      border: 1px solid #999;
+      color: #999;
+      cursor: pointer;
+      margin-right: 8px;
+      border-radius: 3px;
+      position: relative;
+      .rightToolBox {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        line-height: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.45);
+        border-radius: 50%;
+        font-size: 12px;
+        cursor: pointer;
+        position: absolute;
+        right: -25px;
+        top: 12px;
+      }
+    }
+    .activeItem {
+      border: 1px solid #1890ff;
+      color: #1890ff;
+    }
+  }
+}
+
+.freightBox {
+  width: 500px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  padding: 12px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  margin-top: 12px;
+  &:nth-last-child(1) {
+    margin-bottom: 24px;
+  }
+  .freightTitle {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-between;
+  }
+}

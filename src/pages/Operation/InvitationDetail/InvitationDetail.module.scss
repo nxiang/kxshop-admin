@@ -1,0 +1,33 @@
+.Col {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  min-height: 32px;
+  line-height: 32px;
+  word-break: break-all;
+  .Col-title {
+    width: 200px;
+    text-align: right;
+  }
+}
+
+.tableInfoBox {
+  display: flex;
+  align-items: center;
+  width: 230px;
+  overflow: hidden;
+
+  .tableImg {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+    display: block;
+  }
+
+  .tableMsg {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 22px;
+    margin: 0;
+  }
+}

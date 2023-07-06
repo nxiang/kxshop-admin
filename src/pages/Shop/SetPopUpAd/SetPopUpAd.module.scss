@@ -1,0 +1,31 @@
+.set-special-box {
+  background-color: #fff;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .content-box {
+    height: 850px;
+    padding: 32px;
+    .content-header-add-buttom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      margin-bottom: 16px;
+    }
+  }
+}
+.bule-text-box {
+  display: flex;
+  justify-content: center;
+  .bule-text {
+    margin-right: 8px;
+    color: rgba(24, 144, 255, 1);
+    cursor: pointer;
+    &:nth-last-of-type(1) {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.EditCoupon{
+  width:100%;
+  .GetCoupon{
+    margin-top:24px;
+    padding:32px;
+    background:#ffffff;
+    .title{
+      font-size:20px;
+      color:#000000;
+      font-weight: bold;
+      margin-bottom:32px;
+    }
+  }
+  .useBox{
+    display:flex;
+    align-items: center;
+    .RadioBox{
+      display:flex;
+    }
+  }
+  .submitRow{
+    padding-left:8.333333%;
+    button{
+      margin-right:8px;
+    }
+  }
+  .title{
+    font-size:20px;
+    color:#000000;
+    margin-bottom:32px;
+  }
+}
+
+.CouponBase{
+  padding:32px;
+  background:#ffffff;
+
+  input{
+    width:468px;
+    height:32px;
+    font-size:14px;
+  }
+  
+}
+
+.UseRules{
+  margin-top:24px;
+  padding:32px;
+  background:#ffffff;
+  .timeRadioBox{
+    display:flex;
+    align-items: center;
+    .timeRadio{
+      display:flex;
+    }
+  }
+  .datePicker{
+     margin-left:8.333333%
+  }
+  .afterReceiveBox{
+    display:flex;
+    margin-left:8.333333%;
+    .dataInput{
+      margin-right:32px;
+    }
+  }
+
+  .availableItems{
+    display:flex;
+    align-items: center;
+  }
+}
+
+.red{
+  color:#F72633;
+}
+.blueButton{
+  color:#1890FF;
+  background:transparent;
+  border:none;
+  margin-left:8px;
+  outline: none;
+  cursor: pointer;
+}

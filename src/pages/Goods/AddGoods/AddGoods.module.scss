@@ -1,0 +1,228 @@
+.goodsBox {
+  background-color: #fff;
+  position: relative;
+  min-width: 1000px;
+  .StepBottomBtn {
+    text-align: center;
+    border-top: 1px solid #e9e9e9;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0;
+    // .StepBottomBox{
+    //     width: 35%;
+    //     min-width: 540px;
+    //     text-align: left;
+    //     position: absolute;
+    //     left: 40%;
+    //     height: 80px;
+    //     line-height: 80px;
+    // }
+  }
+  .specVaueImgBox {
+    display: inline-block;
+    position: relative;
+    width: 114px;
+    height: 114px;
+		line-height: 0;
+    .specImgBox {
+      width: 104px;
+      height: 104px;
+    }
+    .specVaueTextBox {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      line-height: 1;
+      width: 104px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 12px;
+      height: 17px;
+      line-height: 17px;
+      padding: 0 8px;
+    }
+  }
+
+  .commonHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    border-bottom: 1px dashed #e9e9e9;
+    margin-bottom: 10px;
+  }
+  .shareDesc {
+    margin-top: 20px;
+    .bold {
+      font-weight: bold;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+    .light {
+      margin-top: 10px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.45);
+    }
+  }
+  .StepBox {
+    padding: 30px;
+    padding-bottom: 0px;
+    .StepTitle {
+      width: 936px;
+      margin: auto;
+    }
+  }
+  .content {
+    padding: 30px 0;
+    padding-bottom: 0px;
+    .commonTitle {
+      font-size: 16px;
+      border-left: 3px solid #1890ff;
+      padding-left: 10px;
+    }
+    .commonTitleRowBox {
+      margin: 12px 0;
+    }
+    .commonRowBox {
+      margin: 12px 0;
+      padding-bottom: 70px;
+    }
+
+    .twoContent {
+      padding-bottom: 70px;
+      .subscribeDesc {
+        padding: 15px;
+        padding-left: 30px;
+        p {
+          padding-left: 24px;
+          color: #999;
+        }
+      }
+      .freightBox {
+        width: 500px;
+        border-radius: 4px;
+        border: 1px solid rgba(217, 217, 217, 1);
+        padding: 12px;
+        line-height: 1.2;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        .freightTitle {
+          display: flex;
+          padding-bottom: 5px;
+          justify-content: space-between;
+        }
+      }
+    }
+    .threeContent {
+      padding-bottom: 70px;
+      .finshFont {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+      }
+      .threeBox {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        margin: auto;
+        text-align: center;
+        .checkIcon {
+          font-size: 100px;
+          color: #52c41a;
+        }
+      }
+      .threeBottomBox {
+        text-align: center;
+      }
+    }
+    .oneContent {
+      .goodsTypeList {
+        li {
+          display: inline-block;
+          text-align: center;
+          padding: 10px 20px;
+          border: 1px solid #999;
+          color: #999;
+          cursor: pointer;
+          margin-right: 8px;
+          border-radius: 3px;
+          position: relative;
+          .rightToolBox {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            line-height: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.45);
+            border-radius: 50%;
+            font-size: 12px;
+            cursor: pointer;
+            position: absolute;
+            right: -25px;
+            top: 12px;
+          }
+        }
+        .active-item {
+          border: 1px solid #1890ff;
+          color: #1890ff;
+        }
+      }
+      .SizeBox {
+        margin-top: 10px;
+        padding-left: 0;
+        .sizeUl {
+          padding-left: 0;
+          > li {
+            width: 700px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid rgba(232, 232, 232, 1);
+            .specNameBox {
+              background: rgba(250, 250, 250, 1);
+              padding: 16px 22px;
+            }
+            .sizeValueBox {
+              padding: 16px 36px;
+            }
+            .deleteSize {
+              float: right;
+              color: red;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .goodsBox {
+        position: relative;
+        line-height: 0;
+        .TopImg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 104px;
+          text-align: center;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          height: 20px;
+          font-size: 12px;
+          line-height: 20px;
+          .starIcon {
+            color: #99ceff;
+          }
+        }
+      }
+      .imgText {
+        margin-top: 8px;
+        color: #999;
+      }
+    }
+  }
+}
+.list-item-drag {
+  height: 100%;
+}

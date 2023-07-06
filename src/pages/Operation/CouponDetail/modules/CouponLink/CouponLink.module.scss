@@ -1,0 +1,50 @@
+.signBox{
+  width: 384px;
+  display:flex;
+  align-items:flex-end;
+  justify-content: center;
+  margin-bottom:19px;
+  .signItem{
+    font-size:12px;
+    .signRow{
+      display:flex;
+      align-items: flex-end;
+      margin-right:20px;
+      .signImg{
+        width:76px;
+        height:76px;
+        margin-right:8px;
+      }
+    }
+    .signName{
+      width:100%;
+      margin:5px;
+    }
+  }
+}
+.linkRow{
+  display:flex;
+  width:100%;
+  align-items: center;
+  font-size:12px;
+  margin-bottom:12px;
+  .linkTitle{
+    color:#333333;
+    width:96px;
+    text-align:right;
+  }
+  .linkInput{
+    width:176px;
+    height:28px;
+    margin-right:12px;
+    padding:7px 8px;
+  }
+  .copy{
+    color:#ffffff;
+    background:#1890FF;
+    border-radius:3px;
+    width:59px;
+    height:28px;
+    border:none;
+  }
+}

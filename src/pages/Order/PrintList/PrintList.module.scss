@@ -1,0 +1,104 @@
+.PrintPage{
+  background-color: #fff;
+  .msgreg{
+      font-size:12px;
+      color:#999;
+      margin: 0;
+  }
+
+  .uploadBox{
+      width: 100px;
+      height: 100px;
+      border: 1px solid #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      img{
+          width: 100px;
+          height: 100px;
+      }
+      .uploadtext{
+          color:#999;
+      }
+  }
+  
+  .message-box{
+    position: relative;
+    padding: 28px 24px;
+    background: white;
+  .message-title-btn{
+    position: absolute;
+    top: 10px;
+    right: 32px;
+    width:112px;
+    height:24px;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(24,144,255,1);
+    line-height:24px;
+    cursor: pointer;
+  }
+  .message-title{
+    position: relative;
+    box-sizing: border-box;
+    padding: 16px 55px;
+    background:rgba(251,251,251,1);
+    display: flex;
+    justify-content: space-between;
+    .card-card-title{
+      height:22px;
+      font-size:16px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(0,0,0,1);
+      line-height:22px;
+    }
+    .card-card-operation{
+        height:22px;
+      font-size:16px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(0,0,0,1);
+      line-height:22px;
+      padding: 0 15px;
+    }
+  }
+  .message-card{
+    position: relative;
+    box-sizing: border-box;
+    padding: 16px 50px;
+    display: flex;
+    justify-content: space-between;
+    .card-card-title{
+      height:22px;
+      font-size:16px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(0,0,0,1);
+      line-height:22px;
+    }
+    .title-gray{
+      color:rgba(153,153,153,1);
+    }
+    .card-btn{
+      color: rgba(24, 144, 255, 1);
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .card-time{
+      position: absolute;
+      right: 24px;
+      bottom: 16px;
+      font-size:14px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(0,0,0,0.65);
+      line-height:22px;
+    }
+  }
+}
+}
+        

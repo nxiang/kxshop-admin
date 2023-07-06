@@ -1,0 +1,28 @@
+.choice-express-box{
+  position: relative;
+  background-color: white;
+  .choice-express-header{
+    height: 50px;
+    padding: 0 32px;
+    border-bottom: 1px solid rgba(232, 232, 232, 1);
+    font-size:16px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(0,0,0,0.85);
+    line-height: 50px;
+  }
+  .choice-express-content{
+    padding: 20px 32px;
+    .check-group-box{
+      margin:12px 0 46px;
+      .check-group-item-box{
+        display: flex;
+        flex-wrap: wrap;
+        .check-group-item{
+          width: 138px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+}

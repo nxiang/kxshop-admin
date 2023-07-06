@@ -1,0 +1,26 @@
+.keyword-select-box {
+  .selectInput {
+    position: relative;
+    box-sizing: border-box;
+    width: 238px;
+    height: 32px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 28px 5px 12px;
+    cursor: pointer;
+    color: rgba(24, 144, 255, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    .slesctImg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 26px;
+      height: 32px;
+      padding: 7px 10px 7px 0;
+    }
+  }
+}

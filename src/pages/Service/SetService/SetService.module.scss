@@ -1,0 +1,22 @@
+.set-service-box{
+  min-height: calc(100vh - 260px);
+  background: white;
+  padding: 32px;
+  .set-avatar-box{
+    display: flex;
+    margin-bottom: 60px;
+    .set-avatar-title{
+      width: 90px;
+    }
+  }
+  .set-notification-title{
+    margin-bottom: 8px;
+    .grey-text{
+      color: rgba(0,0,0,0.3);
+    }
+  }
+  .set-notification-text{
+    width: 400px;
+    margin-bottom: 32px;
+  }
+}

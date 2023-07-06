@@ -1,0 +1,128 @@
+@import '~antd/lib/style/themes/default.less';
+
+
+.homePageBox{
+  .commonTitle{
+    padding-top: 45px;
+    padding-bottom:11px;
+    font-size:16px;
+    color:#666;
+    span{
+      font-size:12px;
+      padding-left:8px;
+    }
+  }
+  .detailContent{
+    .platformBox{
+      padding-bottom: 20px;
+      overflow: hidden;
+      .platformImg{
+        vertical-align: sub;
+        padding-right: 3px;
+      }
+    }
+    .bottomNum{
+      padding-top:8px;
+      padding-bottom: 11px;
+      border-top: 1px solid #E8E8E8;
+      .NumRf{
+        float:right;
+      }
+      .arrow{
+        font-weight: bolder;
+        padding-left: 3px;
+      }
+    }
+    .numberBox{
+      color:#333;
+      font-size:30px;
+      padding-bottom:20px;
+      span{
+        font-size:12px;
+      }
+    }
+    .topTitle{
+      color:rgba(0,0,0,0.45);
+      padding-bottom: 4px;
+      .rightToolBox{
+        float:right;
+        width:15px;
+        height:15px;
+        text-align: center;
+        line-height:12px;
+        border: 1px solid rgba(0,0,0,0.45);
+        border-radius: 50%;
+        font-size:12px;
+        cursor: pointer;
+      }
+    }
+    :global {
+      .ant-col {
+        background:#fff;
+        padding:20px 24px 0 24px;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+      }
+    }
+  }
+  .topBox{
+    background:#fff;
+    padding:32px 0 56px 0;
+    .topSonBox{
+      width: 213px;
+      height: 115px;
+      margin: auto;
+      cursor: pointer;
+      padding-top: 24px;
+    }
+    .topSonBox:hover{
+      box-shadow:0px 0px 22px 0px rgba(240,240,240,1);
+      .outNumber{
+        color:#1890FF;
+      }
+    }
+    .title{
+      font-size:20px;
+      padding-left: 32px;
+      padding-bottom:32px;
+    }
+    .bottomBox{
+      .outNumber{
+        color:#333;
+        font-size:24px;
+        padding-top:18px;
+        cursor: pointer;
+      }
+      .outNumber:hover{
+        color:#1890FF;
+      }
+      :global {
+        .ant-col {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.inputItem {
+  :global {
+    .ant-input-number {
+      width: 100%;
+    }
+  }
+}
+
+.card {
+  margin-bottom: 24px;
+}
+
+.iconPreview {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}

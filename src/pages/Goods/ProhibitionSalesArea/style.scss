@@ -1,0 +1,7 @@
+:global{
+  .regionSelect.ant-select,
+  .regionSelect .ant-select{
+    max-height: 68px;
+    overflow-y: scroll;
+  }
+}

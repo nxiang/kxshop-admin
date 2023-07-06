@@ -1,0 +1,94 @@
+.topCode{
+    display: flex;
+    justify-content: space-around;
+    .commonCodeBox{
+        .qrCodeUrl{
+            width: 180px;
+            height: 180px;
+            padding: 12px;
+            border:1px solid #e8e8e8;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .codeText{
+            padding-top:10px;
+            padding-bottom: 16px;
+            text-align: center;
+        }
+        .codeBtn{
+            text-align: center;
+        }
+        .weixinBtn{
+            :global{
+                .ant-btn-primary{
+                    background: #28C445;
+                    border-color: #28C445;
+                }
+            }
+        }
+    }
+}
+.bottomRule{
+    padding-top: 49px;
+    .ruleTitle{
+        color:#333;
+        font-size:16px;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+    ul{
+         padding: 0;
+        li{
+            color:#666;
+            line-height: 26px;
+        }
+    }
+}
+.codeWxBox{
+    background:url('../../../../assets/images/wxbg.png');
+}
+.codeAlipayBox{
+    background:url('../../../../assets/images/alipaybg.png');
+}
+.codeLookBox{
+    width: 334px;
+    height: 544px;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: auto;
+    color:#fff;
+    font-size:15px;
+    box-sizing: border-box;
+    .storeName{
+        width: 100%;
+        padding-bottom: 6px;
+        font-size: 22px;
+        margin: auto;
+        text-align: center;
+    }
+    .codeImg{
+        padding-top: 165px;
+        img{
+            width: 160px;
+            height: 160px;
+        }
+        
+    }
+}
+.codeImgId{
+    position: absolute;
+    top: -9999999px;
+    width: 334px;
+}
+.emptyBox{
+    text-align: center;
+    height:100%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    .emptyText{
+        padding-top:10px;
+        color:#666;
+    }
+}

@@ -1,0 +1,38 @@
+.export-record-item-box {
+  margin-bottom: 24px;
+  .item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 54px;
+    padding: 0 24px;
+    opacity: 1;
+    background: #fafafa;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #666666;
+    line-height: 54px;
+    .item-header-btn {
+      color: rgba(22, 119, 255, 1);
+      cursor: pointer;
+    }
+  }
+  .item-content {
+    width: 100%;
+    padding: 24px;
+    background: #ffffff;
+    overflow: visible;
+    font-size: 14px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    color: #333333;
+    font-weight: 400;
+    box-sizing: border-box;
+  }
+}
+.pagination-box {
+  display: flex;
+  justify-content: flex-end;
+}

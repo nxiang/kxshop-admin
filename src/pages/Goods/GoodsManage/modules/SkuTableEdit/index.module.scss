@@ -1,0 +1,34 @@
+.sku-table-box {
+  position: relative;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .sale-price-box {
+    display: flex;
+    align-items: center;
+    height: 32px;
+
+    .sale-price-inoput-number {
+      margin-left: 8px;
+    }
+
+    .sale-price-icon {
+      color: rgba(25, 155, 255, 1);
+      margin-top: 2px;
+      margin-left: 4px;
+    }
+  }
+
+  .sku-setting-box {
+    display: flex;
+    align-items: center;
+
+    .sku-setting-text {
+      margin-left: 8px;
+      color: rgba(24, 144, 255, 1);
+      cursor: pointer;
+    }
+  }
+}

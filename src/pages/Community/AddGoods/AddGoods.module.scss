@@ -1,0 +1,80 @@
+.commonTitle {
+  font-size: 16px;
+  margin-bottom: 18px;
+  border-left: 3px solid #1890ff;
+  padding-left: 10px;
+}
+
+.freightBox {
+  width: 500px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  padding: 12px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  margin-top: 12px;
+  &:nth-last-child(1) {
+    margin-bottom: 24px;
+  }
+  .freightTitle {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-between;
+  }
+}
+
+.specVaueImgBox {
+  display: inline-block;
+  position: relative;
+  width: 114px;
+  height: 114px;
+  line-height: 0;
+  .specImgBox {
+    width: 104px;
+    height: 104px;
+  }
+  .specVaueTextBox {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    line-height: 1;
+    width: 104px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px;
+    padding: 0 8px;
+  }
+}
+
+.SizeBox {
+  margin-top: 10px;
+  padding-left: 0;
+  .sizeUl {
+    padding-left: 0;
+    > li {
+      width: 700px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid rgba(232, 232, 232, 1);
+      .specNameBox {
+        background: rgba(250, 250, 250, 1);
+        padding: 16px 22px;
+      }
+      .sizeValueBox {
+        padding: 16px 36px;
+      }
+      .deleteSize {
+        float: right;
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+}

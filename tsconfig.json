@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es2016",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "rootDirs": ["/src", "/test", "/mock", "./typings"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      // umi4自带的alias，配置后会有相关的ts提示
+      "@@/*": ["./src/.umi/*"],
+      // "umi":["./src/node_modules/@umijs/max/index.d.ts"],
+      "dva$":["./src/node_modules/@umijs/plugins/libs/dva.ts"],
+      "@umijs/max":["./src/.umi/*"]
+    }
+  },
+  "include": ["./src","./config"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  // "@@/*": ["src/.umi/*"]
+}

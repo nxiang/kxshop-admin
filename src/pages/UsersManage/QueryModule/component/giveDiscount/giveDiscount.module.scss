@@ -1,0 +1,40 @@
+.give-discount-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+   .give-discount-content{
+     display: flex;
+     justify-content: center;
+     .ant-select:first-child{
+       margin-right: 16px;
+     }
+     .give-discount-empty{
+       display: flex;
+       justify-content: flex-start;
+       width: 100%;
+       p{
+         color:#999999;
+       }
+     }
+   }
+  .give-discount-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    button:last-child {
+      margin: 0 30px 0 8px;
+    }
+  }
+}
+.tag-add-title{
+  p{
+    margin-bottom: 0;
+    i{
+      margin-left: 8px;
+      font-style:normal;
+      font-size:12px;
+      color:#F72633;
+    }
+  }
+}

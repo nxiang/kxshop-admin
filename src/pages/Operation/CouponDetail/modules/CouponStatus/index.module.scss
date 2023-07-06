@@ -1,0 +1,30 @@
+.info .cirRadio {
+  background-color: #ed5b56;
+}
+.disabled .cirRadio {
+  background-color: #333;
+}
+.success .cirRadio {
+  background-color: #3fc12f;
+}
+.pendding .cirRadio {
+  background-color: #b5c1c1;
+}
+.toStart .cirRadio {
+  background-color: #1a7ef9;
+}
+
+.cirRadio {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.text {
+  font-size: 14px;
+  font-weight: bold;
+  &.list {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: static;
+    font-weight: normal;
+  }
+}

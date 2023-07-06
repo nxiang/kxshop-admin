@@ -1,0 +1,82 @@
+.openModalBox{
+    .stepTitle{
+        font-size:16px;
+    }
+    .bottomMsg{
+        font-size:12px;
+        color:#F72633;
+        padding-bottom:30px;
+        padding-left:30px;
+    }
+    .oneBox{
+        padding-top:46px;
+        .rightInput{
+            width: 300px;
+        }
+        .cityList{
+            width: 200px;
+        }
+        .cityMsg{
+            font-size:12px;
+            padding-left:8px;
+        }
+    }
+    .twoBox{
+        padding-top:46px;
+        text-align: center;
+        .shopType{
+            width: 200px;
+        }
+        .topItem{
+            width: 558px;
+            margin-left: 157px;
+            text-align: left;
+        }
+        .rowItem{
+            padding-top:21px;
+            .addressText{
+                white-space:nowrap; 
+                overflow:hidden; 
+                text-overflow:ellipsis;
+                display: inline-block;
+                max-width:250px;
+            }
+            span,a{
+                vertical-align: middle;
+            }
+        }
+        .rightBtn{
+            padding-left:16px;
+        }
+        .bottomBox{
+            padding-left:100px;
+            padding-top:32px;
+            padding-bottom: 30px;
+            font-size:12px;
+            color:#F72633;
+            .leftMsg{
+                text-align: left;
+            }
+        }
+    }
+    .threeBox{
+        padding-top:60px;
+        margin:auto;
+        text-align: center;
+        .checkIcon{
+            font-size:100px;
+            color:#52C41A;
+        }
+        .configOk{
+            color:#333;
+            font-size:18px;
+            padding-top:12px;
+            padding-bottom:4px;
+        }
+        .goPlusBtn{
+            color:#199BFF;
+            padding-bottom:30px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.pic_list {
+  display: flex;
+  line-height: 25px;
+  .pic_word {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    .test{
+      margin-left:40px;
+    }
+  } 
+}

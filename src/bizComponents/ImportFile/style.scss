@@ -1,0 +1,52 @@
+
+.exportFile {
+
+  .fileName {
+    margin: 0 10px 0 4px;
+  }
+
+  .fileIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  :global {
+    
+    .ant-upload {
+      white-space: nowrap;
+    }
+    
+    .ant-upload-list {
+      display: none;
+    }
+
+    .ant-descriptions-header {
+      margin-bottom: 0;
+    }
+
+    .ant-descriptions {
+      margin-top: 48px;
+      
+    }
+
+    .ant-descriptions-title {
+      font-size: 14px;
+      font-weight: normal;
+
+      &::after {
+        content: '：';
+      }
+
+    }
+
+    .ant-descriptions-title, .ant-descriptions-item-label, .ant-descriptions-item-content {
+      color: rgba($color: #000, $alpha: 0.45);
+    }
+
+    .ant-descriptions-item {
+      padding-bottom: 0;
+    }
+
+  }
+
+}

@@ -1,0 +1,84 @@
+.bottomMsgBox {
+  background: #fff;
+  margin-top: 20px;
+
+  .titleBox {
+    padding: 12px 0 12px 32px;
+    font-size: 16px;
+    border-bottom: 1px solid #E8E8E8;
+  }
+
+  .msgBox {
+    height: 490px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-top: 32px;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 254px;
+        height: 120px;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.09);
+        border-radius: 2px;
+        border: 1px solid rgba(233, 233, 233, 1);
+
+        .msgTop {
+          display: flex;
+          justify-content: space-between;
+
+          .msgTitle {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+
+        .msgText {
+          color: rgba(0, 0, 0, 0.55);
+          padding-top: 6px;
+        }
+      }
+    }
+  }
+}
+
+.topTipBox {
+  position: relative;
+  background: rgba(255, 240, 239, 1);
+  border-radius: 2px;
+  border: 1px solid rgba(255, 171, 166, 1);
+  padding: 23px 32px;
+  color: #666;
+  vertical-align: middle;
+  width: 792px;
+
+  .closeTip {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+  }
+
+  .tipIcon {
+    color: #fff;
+    background: #666;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}

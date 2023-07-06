@@ -1,0 +1,71 @@
+.LinkBox{
+  position:fixed;
+  top:160px;
+  left:50%;
+  width:384px;
+  // height:260px;
+  background:#ffffff;
+  box-shadow:0px 2px 8px 0px rgba(0,0,0,0.09);
+  font-size:14px;
+  padding:20px;
+  .closeButton{
+    position: absolute;
+    right:12px;
+    top:12px;
+    color:#999999;
+  }
+  .title{
+    color:#333333;
+    font-weight: bold;
+    margin-bottom:8px;
+  }
+  .signBox{
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    margin-bottom:19px;
+    .signItem{
+      font-size:12px;
+      .signRow{
+        display:flex;
+        align-items: flex-end;
+        margin-right:20px;
+        .signImg{
+          width:76px;
+          height:76px;
+          margin-right:8px;
+        }
+      }
+      .signName{
+        width:100%;
+        margin:5px;
+      }
+    }
+  }
+  .linkRow{
+    display:flex;
+    width:100%;
+    align-items: center;
+    font-size:12px;
+    margin-bottom:12px;
+    .linkTitle{
+      color:#333333;
+      width:96px;
+      text-align:right;
+    }
+    .linkInput{
+      width:176px;
+      height:28px;
+      margin-right:12px;
+      padding:7px 8px;
+    }
+    .copy{
+      color:#ffffff;
+      background:#1890FF;
+      border-radius:3px;
+      width:59px;
+      height:28px;
+      border:none;
+    }
+  }
+}

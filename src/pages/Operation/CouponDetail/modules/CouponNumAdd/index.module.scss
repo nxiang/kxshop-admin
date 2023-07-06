@@ -1,0 +1,28 @@
+.primary {
+  color: #1a7ef9;
+}
+.info {
+  color: #b5c1c1;
+}
+.disabled {
+  color: #b6b6b6;
+}
+.success {
+  color: #3fc12f;
+}
+.pendding {
+  color: #00bab8;
+}
+.toStart {
+  color: #f9a530;
+}
+
+.primary,
+.info,
+.disabled,
+.success,
+.pendding,
+.toStart {
+  font-size: 14px;
+  font-weight: bold;
+}

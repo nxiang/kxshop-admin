@@ -1,0 +1,59 @@
+.CouponList {
+  margin-top: 24px;
+  background: #ffffff;
+  padding: 0 32px;
+  .title {
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 0;
+    position: relative;
+  }
+  .title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 64px);
+    height: 1px;
+    background: #e8e8e8;
+    bottom: 0;
+    left: -32px;
+  }
+  .listBox {
+    padding: 17px 0;
+    .listHeader {
+      display: flex;
+      font-size: 14px;
+      justify-content: flex-end;
+      .headerSelect {
+        width: 186px;
+        height: 32px;
+        margin-right: 16px;
+      }
+      .headerInput {
+        width: 169px;
+        height: 32px;
+        margin-right: 16px;
+      }
+      .headerSearch {
+        margin-right: 10px;
+      }
+    }
+    .tableBox {
+      margin-top: 27px;
+      text-align: right;
+      .tableDetail {
+        margin-bottom: 8px;
+        .green {
+          color: #5bcb1d;
+        }
+        .light{
+          color:rgba(0,0,0,0.4);
+        }
+        .dark{
+          color:rgba(0,0,0,0.65);
+        }
+      }
+    }
+  }
+}

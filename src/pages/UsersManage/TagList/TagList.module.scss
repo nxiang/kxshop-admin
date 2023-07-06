@@ -1,0 +1,29 @@
+.tagList-box{
+  .tagList-content{
+    background: #fff;
+    .tagList-title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 64px;
+      border-bottom: 1px solid #E8E8E8;
+      padding: 0 32px;
+      h2{
+        font-size:16px;
+        font-weight:500;
+        color:rgba(0,0,0,0.85);
+      }
+    }
+    .tagList-table{
+      padding:24px 32px;
+      .tagList-search{
+        display: flex;
+        align-items: center;
+        .search-input{
+          width: 272px;
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+}

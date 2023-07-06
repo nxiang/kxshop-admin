@@ -1,0 +1,5 @@
+FROM 10.20.16.80:80/kxshop/nginx:v1.0
+
+COPY admin/ /usr/share/nginx/html/admin/
+
+EXPOSE 80

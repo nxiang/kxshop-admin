@@ -1,0 +1,60 @@
+.screen-table{
+  padding: 0 32px;
+  .screen-user-info{
+    display: flex;
+    align-items: center;
+    img{
+      width:48px;
+      height:48px;
+      margin-right: 22px;
+      //background:rgba(24,144,255,1);
+      border-radius:48px;
+    }
+    .user-info-text{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      b{
+        display: block;
+        width: 120px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        color:rgba(0,0,0,0.65);
+        text-align: left;
+      }
+      p{
+        margin-top: 4px;
+        margin-bottom: 0;
+        color:rgba(0,0,0,0.45);
+      }
+    }
+  }
+  .screen-button-style{
+    .button-style-item{
+      color:#D8D8D8;
+    }
+    .button-style-item:first-child{
+       margin-bottom: 5px ;
+    }
+  }
+  .ant-table-thead{
+    background: #FAFAFA;
+    .ant-table-column-title{
+      font-weight:600;
+    }
+  }
+  .ant-table-tbody{
+    .ant-table-row{
+      color:rgba(0,0,0,0.45);
+    }
+  }
+  .screen-table-pagination{
+    width: 100%;
+    padding: 30px 0 70px 0;
+    .ant-pagination{
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

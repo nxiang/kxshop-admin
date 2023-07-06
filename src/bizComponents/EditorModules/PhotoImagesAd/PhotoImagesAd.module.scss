@@ -1,0 +1,74 @@
+.photo-images-ad-box {
+  margin: 0 auto;
+  // border-radius: 5px;
+  // background: #364d79;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  .Carousel-img-box {
+    flex: 1;
+    text-align: center;
+    .Carousel-img {
+      display: inline-block;
+      // border-radius: 5px;
+      width: 100%;
+    }
+    .coupon-default-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // margin-right: 5px;
+      background: rgba(244, 244, 244, 1);
+      // border-radius: 5px;
+      // margin-left: 7.5px;
+      .default-img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+.scroll-photo-images-ad-box {
+  overflow-x: scroll!important;
+  overflow-y: hidden;
+  /*滚动条样式*/
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;  
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+  }
+  .Carousel-img-box {
+    flex: 0 0 auto!important;
+    justify-content: flex-start!important;
+    text-align: left!important;
+    .Carousel-img {
+      width: inherit!important;
+      flex-shrink: 0;
+      height: 69px;
+    }
+    .coupon-default-img {
+      width: 69px;
+      height: 69px;
+    }
+  }
+}
+.propPaddingLR {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.propPaddingTB {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.propRadius {
+  border-radius: 8px;
+}

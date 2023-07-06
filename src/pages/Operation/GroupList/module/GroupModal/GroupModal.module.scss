@@ -1,0 +1,40 @@
+.groupModal {
+  .formBox {
+    padding-bottom: 80px;
+  }
+
+  .editLoadingBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .table-name-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .table-name-img {
+    width: 60px;
+    height: 60px;
+    background: rgba(232, 232, 232, 1);
+  }
+
+  .btnBox {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    padding: 10px 0;
+    border-top: 1px solid #f0f0f0;
+    width: 100%;
+    text-align: right;
+    padding-right: 25px;
+    background: #fff;
+
+    .cancelBtn {
+      margin-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.storedQueryBox{
+    .userBox{
+        img{
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+            position: absolute;
+            left:0px;
+        }
+        .rightBox{
+            padding-left: 44px;
+        }
+    }
+    .dataContent{
+        background:#fff;
+        margin: 24px;
+        .dataDetail{
+            padding-top: 24px;
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    width: 33%;
+                    text-align: center;
+                    div{
+                        padding-bottom: 18px;
+                    }
+                    span{
+                        font-size:24px;
+                        color:#1890FF;
+                    }
+                }
+            }
+        }
+        .dataTitle{
+            border-bottom:1px solid #e8e8e8;
+            padding: 12px 32px;
+            font-size:20px;
+        }
+        .dataBox{
+            padding: 24px 0 58px 32px;
+        }
+    }
+    .storedContent{
+        background:#fff;
+        margin: 24px;
+        .tableContent{
+            padding:0 32px 32px 32px;
+        }
+        .topBox{  // 头部样式
+            padding:16px 32px;
+            border-bottom: 1px solid #E8E8E8;
+            margin-bottom: 24px;
+            .topTitle{
+                color:#000;
+                font-size:16px;
+            }
+            .topBtn{
+                float:right;
+            }
+        }
+    }
+}

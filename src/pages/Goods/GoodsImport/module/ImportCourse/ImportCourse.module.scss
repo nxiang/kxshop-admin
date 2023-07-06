@@ -1,0 +1,19 @@
+.courseImg{
+    height:276px;
+    width: 100%;
+}
+.bottomBtn{
+    margin: auto;
+    text-align: center;
+}
+.courseModal{
+    :global{
+        .ant-modal-footer{
+            border-top:none !important;
+        }
+    }
+}
+.courseContent{
+    height: 750px;
+    overflow: auto;
+}

@@ -1,0 +1,17 @@
+
+.tag-opera-content {
+  textarea.ant-input {
+    height: 112px;
+  }
+
+  .tag-opera-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 70px;
+
+    button:last-child {
+      margin-left: 8px;
+    }
+  }
+}

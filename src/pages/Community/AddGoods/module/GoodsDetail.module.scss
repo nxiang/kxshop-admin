@@ -1,0 +1,61 @@
+.DetailImgBox{
+    background:#eee;
+    width:856px;
+    border: 1px solid #eee;
+    .GoodsContent{
+        width: 600px;
+        background:#fff;
+        padding:20px;
+        box-sizing: border-box;
+        margin: auto;
+        box-shadow:0px 0px 10px 0px rgba(0,0,0,0.1);
+       
+        .DetailContent{
+            padding-bottom: 20px;
+            ul{
+                li{
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                    position: relative;
+                    img{
+                        height:auto;
+                        width:100%;
+                    }
+                }
+                .TextBox{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    line-height: 20px;
+                    min-height:30px;
+                }
+                .editBox{
+                    position: absolute;
+                    top: 12px;
+                    right:12px;
+                    border-radius:4px;
+                    background: #fff;
+                    border: 1px solid rgba(217,217,217,1);
+                    z-index: 3;
+                    span{
+                        display: inline-block;
+                        padding: 0 16px;
+                        height:32px;
+                        border-right:1px solid rgba(217,217,217,1);
+                        text-align: center;
+                        line-height: 32px;
+                    }
+                    span:last-child{
+                        border-right:none;
+                    }
+                }
+            }
+        }
+        .btnBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.photo-style-back-box {
+  position: relative;
+  width: 293px;
+  .photo-style-back-img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 293px;
+    height: 740px;
+    overflow: hidden;
+    .photo-style-back-img {
+      z-index: 1;
+      width: 293px;
+    }
+  }
+  .photo-style-back-color-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 732px;
+  }
+}

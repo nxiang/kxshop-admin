@@ -1,0 +1,22 @@
+.businessBox{
+    background:#fff;
+    padding-bottom: 220px;
+    .title{
+        padding: 13px 0 13px 32px;
+        border-bottom: 1px solid #E8E8E8;
+        font-size:16px;
+        font-weight: bold;
+        margin-bottom: 33px;
+    }
+    .rightToolBox{
+        display: inline-block;
+        width:15px;
+        height:15px;
+        text-align: center;
+        line-height:12px;
+        border: 1px solid rgba(0,0,0,0.45);
+        border-radius: 50%;
+        font-size:12px;
+        cursor: pointer;
+      }
+}

@@ -1,0 +1,70 @@
+.couponDetailPage {
+  width: 100%;
+  min-height: 700px;
+  padding: 16px;
+  background:#ffffff;
+  .couponCard {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(255, 233, 236);
+    text-align: center;
+    line-height: 26px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    margin-top: 26px;
+    color: rgb(255, 90, 84);
+    font-weight: bold;
+    font-size: 18px;
+    &::after,
+    &::before{
+      display: block;
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    &::after{
+      right: -5px;
+    }
+    &::before{
+      left: -5px;
+    }
+
+    .couponCardTips {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 100px;
+      transform: translate(-50%, -110%);
+      background-color: rgb(116, 204, 244);
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .couponCardInfo {
+    margin-top: 26px;
+    h3 {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  .couponDetailContent {
+    padding: 0 20px;
+  }
+  .descriptionsTtemTips {
+    color: #bbb;
+  }
+  .descriptionsItemImg {
+    height: 60px;
+    margin-right: 5px;
+  }
+}

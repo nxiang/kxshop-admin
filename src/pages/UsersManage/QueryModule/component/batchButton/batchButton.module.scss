@@ -1,0 +1,11 @@
+.screen-condition-operate{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  .operate-item{
+    margin-right: 8px;
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+}

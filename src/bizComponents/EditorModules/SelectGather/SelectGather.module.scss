@@ -1,0 +1,14 @@
+.item-type-box {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-top: 12px;
+
+  &.noMargin {
+    margin-top: 0;
+  }
+
+  .item-type-select {
+    margin-right: 10px;
+  }
+}

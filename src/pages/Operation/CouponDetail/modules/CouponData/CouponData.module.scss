@@ -1,0 +1,30 @@
+.ConponData{
+  margin-top:24px;
+  background:#ffffff;
+  box-sizing: border-box;
+  padding:32px;
+  text-align:center;
+  .title{
+    color:#000000;
+    font-size:20px;
+    text-align:left;
+  }
+  .dataRow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:32px auto;
+    .dataCol{
+      flex:1;
+      .dataName{
+        font-size:14px;
+        color:#000000;
+        margin-bottom:18px;
+      }
+      .dataNum{
+        font-size:24px;
+        color:#1890FF;
+      }
+    }
+  }
+}

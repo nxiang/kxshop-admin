@@ -1,0 +1,152 @@
+.set-special-box {
+  background-color: #fff;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .content-box {
+    height: 850px;
+    padding: 32px;
+    .content-header-add-buttom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.modal-img-box {
+  display: flex;
+  flex: 1;
+  .modal-img-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .downloadButton {
+      margin: 10px 0;
+    }
+  }
+
+  .codeShowBox {
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    .storeName {
+      width: 100%;
+      padding: 6px 0;
+      font-size: 18px;
+      color: #000000;
+      text-align: center;
+    }
+    .codeImg {
+      img {
+        width: 180px;
+        height: 180px;
+      }
+    }
+  }
+}
+
+.codeImgId {
+  position: absolute;
+  top: -10000px;
+  left: 0;
+  width: 334px;
+}
+.codeLookBox {
+  width: 1280px;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  box-sizing: border-box;
+  .storeName {
+    width: 100%;
+    padding: 6px 0;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+  }
+  .codeImg {
+    img {
+      width: 1280px;
+      height: 1280px;
+    }
+  }
+}
+
+.modal-text-box {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  height: 32px;
+  .modal-title {
+    width: 100px;
+    height: 32px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+    text-align: right;
+  }
+  .modal-text-inupt {
+    width: 248px;
+    height: 32px;
+    background: #ffffff;
+  }
+}
+.modal-modules-select {
+  display: flex;
+  align-items: center;
+  margin-left: 34px;
+  .modules-item {
+    position: relative;
+    width: 187px;
+    height: 337px;
+    margin-right: 20px;
+    background: #fbfbfb;
+    box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #666666;
+    line-height: 337px;
+    text-align: center;
+    cursor: pointer;
+    .modules-item-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .modules-item-hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #1890ff;
+  }
+}
+.bule-text-box {
+  display: flex;
+  justify-content: center;
+  .bule-text {
+    margin-right: 8px;
+    color: rgba(24, 144, 255, 1);
+    cursor: pointer;
+    &:nth-last-of-type(1) {
+      margin-right: 0;
+    }
+  }
+}
