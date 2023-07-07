@@ -100,7 +100,7 @@
     "roadhog-api-doc": "^1.1.2",
     "umi-request": "^1.2.19",
     "wangeditor": "^4.0.8",
-    "xlsx": "^0.16.0"
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
