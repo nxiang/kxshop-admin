@@ -43,7 +43,7 @@
     "@ahooksjs/use-url-state": "^3.5.1",
     "@ant-design/compatible": "^1.0.2",
     "@ant-design/icons": "^4.0.6",
-    "@antv/data-set": "^0.10.1",
+    "@antv/data-set": "^0.11.8",
     "@babel/runtime": "^7.9.6",
     "@typescript-eslint/parser": "^5.51.0",
     "@umijs/max": "^4.0.65",
